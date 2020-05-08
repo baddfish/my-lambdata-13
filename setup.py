@@ -9,7 +9,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="baddfish-my-lambdata-13",
-    version="1.0",
+    version="1.1",
     author="Tony Maddalone",
     author_email="tjmaddalonec@gmail.com",
     description="For example purposes",
