@@ -16,3 +16,18 @@ if __name__ == "__main__":
     print("Hello there")
     y = int(input("Please choose a number"))
     print(y, enlarge(y))
+
+## Helper and main helper functions
+
+def helper(x, n):
+    if (x > n):
+        return x - n
+    else:
+        return x
+
+def main():
+    x = 10
+
+    # do something that changes x
+    x = helper(x, 2)
+    # now x has changed 
